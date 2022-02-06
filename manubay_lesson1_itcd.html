@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="EN">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="Author" content="MANUBAY, CHAZZ C."/>
+        <meta name="Description" content="Lesson 1 - ITCD">
+        <title>LESSON 1 - INTRO TO HTML 5</title>
+        <link rel="icon" href="favicon.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <!--NOTE: I changed the contents and the arrangements of some tags, based on the requirement of the Hands On Exercise 1-1.-->
+        <h1>LESSON 1 - INTRO TO HTML</h1>
+        <p>Written by: Chazz Manubay (ITCD)</p>
+        <h1>This is the largest header.</h1>
+        <h2>Headers can be smaller.</h2>
+        <h3>And smaller.</h3>
+        <h4>Even smaller.</h4>
+        <h5>Is this as small as it can get?</h5>
+        <h6>Ah, there's the smallest one.</h6>
+
+        You see, there are ways to control how the text flows,
+        <br/>like this line break for example.
+
+        You can chop <br/>the sentence<br/>into multiple parts.
+
+        <p>And then we have the paragraph. A paragraph creates a blank line before it so that it can separate the text block to other contents of the webpage. I won't be making this one too long.</p>
+
+        <h3>There are three types of indentations:</h3>
+        
+        <div style="text-align: left;">
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For the first paragraph, we'll be using the classic five-space indentation. This is commonly seen in books or essays. This paragraph is also aligned to the left. I'll try to make this paragraph longer by saying random things. Did you know that they are about to legalize Same-Sex Marriage in Tokyo? Honestly, I was surprised. But at the same time, I knew it was coming. After all, Japan isn't heavily influenced by Christianity.</p>
+        </div>
+
+        <div style="text-align: right;">
+            <p><blockquote>For this one, we'll be using the blockspace indentation together with the five-space indent at the beginning. This is seen in academic papers. Well, they normally are justified, but for this example, this is aligned to the right. There are little similarities to the example video that Prof. Ventura recorded, because I wanted to make this webpage more personalized and try to understand the HTML syntax in the best way that I can. Anyways, did you know that how Filipinos pronounce Robitussin isn't the correct English pronunciation? Me neither.</blockquote></p>
+        </div>
+        
+        <div style="text-align: justify; text-indent: -36px; padding-left: 36px;">
+            <p>For this one, we'll be doing the hanging indent. The settings used for this one is the prescribed number of pixels for padding in the APA style. You can see hanging indents used in references. I need to make this one longer so that it reaches the next line and shows you how a hanging indent looks like. Anyways, if you're reading at this point, do not forget to stay safe, healthy, and hydrated. Also, cats do not fall on their backs. Instead, they rotate their bodies mid-air to make sure that they land on their feet. Cool use of gravity, right? Also, bats are not totally blind. They just use sound to accurately spot preys or food in the dark.</p>
+        </div>
+
+        <h3>Let's talk about horizontal rules.</h3>
+
+        <p>Did you know that you can change how these horizontal rules look like? Let me give you the standard look of the horizontal rule:</p>
+
+        <hr/>
+
+        <p>See? It's boring. Now let's try adding some attributes to it.</p>
+
+        <hr width=50% text-align=center size=10px NOSHADE color="#23914b"/>
+
+        <p>Great! Now it's bigger, shorter, and it now has color. Fun fact: this color is the green that COMSSO uses for its logo. How do I know? I'm the AVP for Creative Arts of COMSSO. As you can see, this rule has a flat color. That's because I used "NOSHADE" for it. Let's see how it looks like without "NOSHADE":</p>
+
+        <hr width=90% text-align=center size=10px/>
+
+        <p>Apparently, I can't make it work with the colors. I'll try figuring that out later on.</p>
+
+        <h3>Okay, let's try out the preformatted text.</h3>
+
+        <p>I'll try adding short poem that I wrote here.</p>
+
+<pre>
+    Perhaps I never loved          enough.
+            If only I'd loved much more;
+        I would not nearly have so much
+    
+                    Left waiting for you     in store,
+                If I had given away   my heart
+        To those     who came before
+    
+    It would be safer left in parts
+            But now           you have it     all.
+</pre>
+
+        <p>The title of that poem is "My Heart", and I wrote it way back in 2017.</p>
+
+        <h3 style="text-align: center;">Now, let's try playing with physical and logical tags!</h3>
+
+        <div style="padding-left: 10%; padding-right: 10%;">
+        <p>
+            So, first of all, if I wanted to emphasize something, for example <strong>this block of text,</strong> then I would probably use the physical tag <b>b</b> or the logical tag <strong>strong</strong>. Both are great for making boldfaces, but <strong>strong</strong> is much more intuitive.
+        </p>
+        
+        <p>
+            If I wanted to italicize something, I could just use the <i> i tag</i> or simply use the <em>em tag</em>. This is <em>great</em> to use whenever you just want something emphasized. You can also use the <cite>cite tag</cite> to reference outside sources, or <dfn>dfn tag</dfn> to define something. There's also the <address>address tag</address> for contact informations. However, I like intuitiveness rather than speed, so I would rather use the <em>em tag</em>.
+        </p>
+
+        <p>
+            To underline something, I can use the <u>u tag</u> or the <ins>insert tag</ins>. The purpose of this is to "insert" text into a document that was already written before. The <ins>ins tag</ins> is easier to remember, so I'll use that one instead.
+        </p>
+
+        <p>
+            Monospaced texts are shown in fixed-width. There are multiple ways to write monospaced texts. For example, you can use the <code>code tag</code> for writing computer codes, or the <kbd>kbd tag</kbd> for writing keyboard inputs. You can also try the <samp>samp tag</samp> to show sample outputs. All of these are logical tags, but I would probably use the <code>code tag</code> more.
+        </p>
+        <p>
+            Strikethroughs show a horizontal line through the text. There are two ways to write them: either you use the <s>s physical tag</s> or the <del>del logical tag</del>. Strikethroughs are basically text that you want deleted, but still visible on the browser. Honestly, there's no point in doing this unless you're updating an old blog, or using it for sarcasm. I like using the <del>del tag</del>.
+        </p>
+        </div>
+
+        <p>
+            I had fun writing this. I know that there are a lot of differences from the code in the first lesson, but I made sure that I got to apply all the concepts properly in my own way.
+        </p>
+    </body>
+</html>
