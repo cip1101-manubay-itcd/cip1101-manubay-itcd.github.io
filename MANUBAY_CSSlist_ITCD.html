@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Manubay, Chazz C.">
+        <meta name="Description" content="CSS List Properties Program">
+
+        <title>CSS List Properties Program</title>
+
+        <style type="text/css">
+            body {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            h1.heading {
+                text-align: center;
+                color: #FFFBFE;
+                background-color: #558564;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+
+            h3 {
+                margin-top: -1em;
+                text-align: center;
+                color: #534B62;
+            }
+
+            ul.a {list-style-type: circle;}
+
+            ul.b {list-style-type: square;}
+
+            ul.c {list-style-type: disc;}
+
+            ul.demo {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            ul.fullwidth {
+                list-style-type: none;
+                padding: 0;
+                border: 1px solid #dddddd;
+            }
+
+            ul.fullwidth li {
+                padding: 8px 16px;
+                border-bottom: 1px solid #dddddd;
+            }
+
+            ul.image {
+                list-style-image: url("pointing_finger.png");
+            }
+
+            ul.inside {
+                list-style-position: inside;
+            }
+
+            ul.outside {
+                list-style-position: outside;
+            }
+
+            ul.redborder {
+                border-left: 5px solid red;
+                background-color: #F1F1F1;
+                list-style-type: none;
+                padding: 10px 20px;
+            }
+
+            ul.shorthand {
+                list-style: square inside url("note.png");
+            }
+
+            ul.style {
+                background: #320D6D;
+                padding: 20px;
+            }
+
+            ul.style li {
+                background: #EFE9F4;
+                margin: 5px;
+            }
+
+            ol.roman {
+                list-style-type: upper-roman;
+            }
+
+            ol.alpha {
+                list-style-type: lower-alpha;
+            }
+
+            ol.style {
+                background-color: #57A773;
+                padding: 5px;
+                margin-left: 35px;
+            }
+
+            ol.style li {
+                background: #EFE9F4;
+                padding: 5px;
+                margin-left: 35px;
+            }
+
+            ol.d {list-style-type: armenian;}
+            ol.e {list-style-type: cjk-ideographic;}
+            ol.f {list-style-type: decimal;}
+            ol.g {list-style-type: decimal-leading-zero;}
+            ol.h {list-style-type: georgian;}
+            ol.i {list-style-type: hebrew;}
+            ol.j {list-style-type: hiragana;}
+            ol.k {list-style-type: hiragana-iroha;}
+            ol.l {list-style-type: katakana;}
+            ol.m {list-style-type: katakana-iroha;}
+            ol.n {list-style-type: lower-alpha;}
+            ol.o {list-style-type: lower-greek;}
+            ol.p {list-style-type: lower-latin;}
+            ol.q {list-style-type: lower-roman;}
+            ol.r {list-style-type: upper-alpha;}
+            ol.s {list-style-type: upper-latin;}
+            ol.t {list-style-type: upper-roman;}
+            ol.u {list-style-type: none;}
+            ol.v {list-style-type: inherit;}
+
+        </style>
+    </head>
+    <body>
+
+        <h1 class="heading">CSS List Properties Program</h1>
+        <h3>Written By: Chazz C. Manubay</h3>
+        <p>Example of unordered lists:</p>
+        <ul class="a">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <ul class="b">
+            <li>Conditioner</li>
+            <li>Shampoo</li>
+            <li>Soap</li>
+        </ul>
+
+        <p>Example of ordered lists:</p>
+        <ol class="roman">
+            <li>Cake</li>
+            <li>Cupcake</li>
+            <li>Muffin</li>
+        </ol>
+
+        <ol class="alpha">
+            <li>Potato Chips</li>
+            <li>Fish Crackers</li>
+            <li>Salted Peanuts</li>
+        </ol>
+
+        <hr>
+
+        <p>Image as the list item maker:</p>
+        <ul class="image">
+            <li>Pick-Up</li>
+            <li>Sedan</li>
+            <li>SUV</li>
+        </ul>
+
+        <hr>
+
+        <p>Positioning the list item markers:</p>
+        <ul class="outside">
+            <li>Coffee - A brewed drink prepared from roasted coffee beans.</li>
+            <li>Tea - A brewed drink prepared from tea leaves.</li>
+            <li>Softdrinks - A carbonated drink infused with sugar and flavoring.</li>
+        </ul>
+
+        <ul class="inside">
+            <li>Coffee - A brewed drink prepared from roasted coffee beans.</li>
+            <li>Tea - A brewed drink prepared from tea leaves.</li>
+            <li>Softdrinks - A carbonated drink infused with sugar and flavoring.</li>
+        </ul>
+
+        <hr>
+
+        <p>Default list:</p>
+        <ul>
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <p>Remove bullets, margin, and padding:</p>
+        <ul class="demo">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <hr>
+
+        <p>Shorthand property of list:</p>
+
+        <ul class="shorthand">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <hr>
+
+        <h1>Styling Lists with Colors:</h1>
+
+        <ol class="style">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ul class="style">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <p>List with a red left border:</p>
+        <ul class="redborder">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <p>Full-width bordered list:</p>
+        <ul class="fullwidth">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <hr>
+
+        <h1>Other List Item Style Markers</h1>
+
+        <ul class="a">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <ul class="b">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <ul class="c">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ul>
+
+        <ol class="d">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="e">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="f">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="g">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="h">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="i">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="j">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="k">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="l">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="m">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="n">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="o">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="p">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="q">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="r">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="s">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="t">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="u">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+
+        <ol class="v">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Softdrinks</li>
+        </ol>
+    </body>
+</html>
