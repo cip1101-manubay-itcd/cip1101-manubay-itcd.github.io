@@ -3,17 +3,25 @@ body {
     font-family: Rubik, Tahoma, Verdana, sans-serif;
 }
 
-#name {
-    color: #2E294E;
-    font-weight: 800;
-    font-size: 4em;
-}
+
 
 #application-position {
     color: #55828B;
     font-weight: 600;
     font-size: 2em;
     margin-top: -1.5em;
+}
+
+#contact {
+    font-style: oblique;
+    text-align: center;
+    margin-top: -1.75em;
+}
+
+#name {
+    color: #2E294E;
+    font-weight: 800;
+    font-size: 4em;
 }
 
 #objective {
@@ -24,11 +32,7 @@ body {
     font-size: 1.5em;
 }
 
-#contact {
-    font-style: oblique;
-    text-align: center;
-    margin-top: -1.75em;
-}
+#reference {font-size: 1.5em;}
 
 #update {
     color: #B8336A;
@@ -37,9 +41,7 @@ body {
     padding-left: 3em;
 }
 
-div.header, div.description, div.skills, div.reference {
-    text-align: center;
-}
+div.header, div.description, div.skills, div.reference {text-align: center;}
 
 div.work, div.education, div.seminars {
     padding-left: 30em;
@@ -53,6 +55,7 @@ h2.titles {
     color: #FFFFF3;
     margin-left: 5em;
     margin-right: 5em;
+    padding: 0.25em 0em 0.25em;
 }
 
 li.skill-titles {
@@ -64,18 +67,28 @@ li.skill-titles {
     padding-bottom: 1.125em;
 }
 
-p.position-name, p.education-level, p.seminar-name {
-    margin-top: -1em;
+h3.block-title {
+    font-weight:800;
+    color:#2E294E;
+    margin-top: 1em;
     font-size: 1.25em;
 }
 
-p.workplace-name, p.work-duration, p.work-address, p.school-name, p.school-duration, p.school-address, p.seminar-speaker, p.seminar-date {
+.block-subtitle-a {
+    font-size: 1.025em;
+    font-weight: 600;
+    color: #218380;
     margin-top: -1.125em;
 }
 
-ul.takeaways {
-    line-height: 1.5em;
+.block-subtitle-b {margin-top: -1.125em;}
+
+.block-subtitle-c {
+    margin-top: -1.125em;
+    font-style: italic;
 }
+
+ul.takeaways {line-height: 1.5em;}
 
 ul.technical-skill, ul.tools, ul.soft-skill, ul.courses {
     text-align: justify;
@@ -84,18 +97,10 @@ ul.technical-skill, ul.tools, ul.soft-skill, ul.courses {
     padding-right: 30em;
 }
 
-ul.technical-skill {
-    list-style-image: url(resume_technical_bullet.png);
-}
+ul.technical-skill {list-style-image: url(resume_technical_bullet.png);}
 
-ul.tools {
-    list-style-image: url(resume_bullet.png);
-}
+ul.tools {list-style-image: url(resume_bullet.png);}
 
-ul.soft-skill {
-    list-style-image: url(resume_soft_bullet.png);
-}
+ul.soft-skill {list-style-image: url(resume_soft_bullet.png);}
 
-ul.courses {
-    list-style-image: url(resume_courses_bullet.png);
-}
+ul.courses {list-style-image: url(resume_courses_bullet.png);}
