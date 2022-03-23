@@ -18,7 +18,7 @@
 </head>
 <body>
     <div class="top-nav">
-        <div><a href="../../index.html"><span class="material-icons">home</span></a></div>
+        <div><a href="landing-page.html"><span class="material-icons">home</span></a></div>
         <div>Gallery</div>
     </div>
 
