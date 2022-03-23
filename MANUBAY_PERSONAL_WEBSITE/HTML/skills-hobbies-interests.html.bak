@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Chazz C. Manubay">
+    <meta name="Description" content="Skills, Hobbies, and Interests - Personal Website">
+
+    <title>Skills, Hobbies, and Interests | Chazz C. Manubay</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="icon" type="image/x-icon" href="../MEDIA/FAVICONS/interests-favicon.png">
+    <link rel="stylesheet" type="text/css" href="../CSS/skillsHobbiesInterestsDes.css">
+</head>
+<body>
+    <div class="top-nav">
+        <div><a href="landing-page.html"><span class="material-icons">home</span></a></div>
+        <div>What I Do</div>
+    </div>
+
+    <div class="intro">
+        <h1>Capabilities: Me and What I Can Do</h1>
+        <h3>The way I deal with the world, and what I learned from doing so.</h3>
+    </div>
+
+    <div class="jumplink">
+        <h3>Where do you want to read?</h3>
+        <div><a href="#childhood">Competence</a></div>
+        <div><a href="#teenage">Recreation</a></div>
+        <div><a href="#college">Curiosity</a></div>
+        <h4>If nothing else, you can scroll down to start reading.</h4>
+    </div>
+
+    <div id="childhood">
+        <h2 class="article-title">Competence: My Skills</h2>
+        <p class="quotation"><cite><q>When it comes to mastering a skill, time is the magic ingredient.</q></cite><br>— <b>Robert Greene</b></p>
+        <div class="article">
+            <p>
+                I can do <strong>public speaking</strong>, because I love to speak.<sup>1</sup> My mother has always assisted me in learning how to confidently talk when I was very young.<sup>2</sup> Because of this, I have grown to be able to speak without my thoughts bothering me too much.<sup>3</sup> I always try to participate whenever I know the topics in a recitation, or join conversations about things I know about.<sup>4</sup> Although this helped me make friends, I also have had my share with misunderstandings and quarrels.<sup>5</sup> Because of this, I can actively participate in debates about social or political issues.<sup>6</sup> Even though I like to participate in these kinds of debates, <em>I am aware of the limits of my knowledge</em>.<sup>7</sup> I like memorizing, though.<sup>8</sup> Whether it is a literary piece, a speech, an algorithm, or bits of general knowledge.<sup>9</sup> It's because <em>I love expanding my knowledge</em>, either general or specific.<sup>10</sup> That is why I got to absorb my programming classes in my previous semesters.<sup>11</sup> Though if left unused, I know that it will quickly fade away from my subconscience.<sup>12</sup>
+            </p>
+
+            <p>
+                I also <strong>sing</strong>, because <em>my family is musically-inclined</em>.<sup>13</sup> I have done chorale singing, stage play singing, pop singing, and ballad singing.<sup>14</sup> However, I do not see myself venturing into this field in a competitive way.<sup>15</sup> I also know how to <strong>play the guitar</strong>, but I am not very good at it.<sup>16</sup> I know how to <strong>draw</strong>, though I am not the best at it.<sup>17</sup> Rather, I am fairly confident in my <strong>graphic design</strong> skills.<sup>18</sup> I have been doing some of the <em>publicity matters</em> that <abbr title="Computer Students Society">COMSSO</abbr> puts out on their page.<sup>19</sup> I also had the opportunity to be able to remaster their logo.<sup>20</sup> I have other skills, but I will not discuss them.<sup>21</sup> This is because I believe that I should learn more about them to consider them as my skill.<sup>22</sup> <strong>I am looking forward to learning more skills</strong>.<sup>23</sup> I know that I am someone who loves trying out new things, so I believe that my skillset will keep expanding.<sup>24</sup> And I am certain that the skills I talked about will remain for many years to come.<sup>25</sup>
+            </p>
+        </div>
+
+        <div class="footnote">
+            <dd><i><sup>13</sup>My mother is very fond of music. So, at a very young age, me and my siblings have been exposed to music.<br></i></dd>
+            <dd><i><sup>15</sup>I see singing as something that I do for recreation, and I would much rather not be stressed by the concept of competitive singing.<br></i></dd>
+            <dd><i><sup>19</sup>As of writing, I hold the position of <abbr title="Associate Vice President for Creative Arts">AVP for Creative Arts</abbr>.<br><br></i></dd>
+        </div>
+
+        <div class="images">
+            <a href="../MEDIA/IMAGES/skills-1.jpg" alt="A pubmat I made for COMSSO." title="A pubmat I designed on National Heroes' Day for COMSSO." target="newWindow"><img src="../MEDIA/IMAGES/skills-1.jpg"></a>
+            <a href="../MEDIA/IMAGES/skills-2.png" alt="A redraw of a famous animated movie." title="A redraw of a scene in Whisper of the Heart, an animated movie by Studio Ghibli." target="newWindow"><img src="../MEDIA/IMAGES/skills-2.png"></a>
+            <a href="../MEDIA/IMAGES/design-2.jpg" target="newWindow"><img src="../MEDIA/IMAGES/design-2.jpg"></a>
+        </div>
+    </div>
+
+    <div class="return">
+        <a href="#">Back to Top</a>
+    </div>
+    
+
+    <div id="teenage">
+        <h2 class="article-title">Recreation: My Hobbies</h2>
+        <p class="quotation"><cite><q>You never lose a dream, it just incubates as a hobby.</q></cite><br>— <b>Larry Page</b></p>
+        <div class="article">
+            <p>
+                I am a <em>fairly simple</em> person, so my interests are quite simple.<sup>1</sup> I love <strong>watching movies and TV series</strong>.<sup>2</sup> I honestly prefer watching over reading, because I love moving pictures over blocks of text.<sup>3</sup> Do not get me wrong, I also am fine with reading.<sup>4</sup> In fact, I have books before, as I have mentioned in my biography.<sup>5</sup> However, I can easily empathize with emotion if I see or hear it.<sup>6</sup> I mainly watch <strong><abbr title="Japanese Animation">anime</abbr> series and movies</strong>.<sup>7</sup> I love the way that they are produced.<sup>8</sup> <em>The art, story, music, and even character designs are important aspects for me</em>.<sup>9</sup> I cannot enjoy animes that look good, but lack depth.<sup>10</sup> I also cannot thoroughly enjoy animes that are full of depth, but lacking aesthetic.<sup>11</sup> I love empathizing with characters, so I can't enjoy animes that lack character development.<sup>12</sup> And because I love music, I am not satisfied whenever anime soundtracks don't catch my attention.<sup>13</sup>
+            </p>
+
+            <p>
+                I also love <strong>listening to music</strong>.<sup>14</sup> The genres I listen to are many, and they depend on my mood.<sup>15</sup> It can also be in different languages.<sup>16</sup> My favorite genres are <abbr title="Rhythm and Blues">R&B</abbr>, Indie, Acoustic, Jazz, Funk, Soul, etc.<sup>17</sup> I listen to <abbr title="Korean Indie">K-Indie</abbr>, <abbr title="Japanese Indie">J-Indie</abbr>, and Indie <abbr title="Original Pilipino/Pinoy/Philippine Music">OPM</abbr>.<sup>18</sup> I can describe the music I listen to as <em>soft, jazzy, unconventional, and sometimes highly stimulating</em>.<sup>19</sup> This is why I pick music depending on my mood.<sup>20</sup> I love creating playlists for <em>different kinds of mood or situation</em>.<sup>21</sup> I also <strong>play games</strong>, though I am not into games as much as other people are.<sup>22</sup> I like simulation games, like The Sims.<sup>23</sup> I have been playing The Sims ever since I was young.<sup>24</sup> But due to current circumstances and my fading interest, I no longer play it.<sup>25</sup> Right now, I am into League of Legends.<sup>26</sup> This is a <abbr title="Multiplayer Online Battle Arena">MOBA</abbr> game that I play with my friends regularly.<sup>27</sup> However, <em>I am not a competitive gamer</em>.<sup>28</sup> I would rather play games that I can play at my own pace, because I easily get stressed out if I am met with obligations to play.<sup>29</sup> It takes away the fun in playing games for me.<sup>30</sup> I am looking forward to other hobbies that might interest me, as long as they're healthy for my mental health.<sup>31</sup></strong>
+            </p>
+        </div>
+
+        <div class="footnote">
+            <dd><i><sup>9</sup>I am interested in the function of the anime industry.<br></i></dd>
+            <dd><i><sup>19</sup>I like to discover new music that is not mainstream.<br><br></i></dd>
+        </div>
+
+        <div class="images">
+            <a href="../MEDIA/IMAGES/hobbies-1.jpg" alt="The cast of The Big Bang Theory" title="A photo of the casts of my current favorite show, The Big Bang Theory." target="newWindow"><img src="../MEDIA/IMAGES/hobbies-1.jpg"></a>
+            <a href="../MEDIA/IMAGES/hobbies-2.gif" alt="A photo of Rimuru." title="A moving image of Rimuru, the main character of That Time I Got Reincarnated as a Slime." target="newWindow"><img src="../MEDIA/IMAGES/hobbies-2.gif"></a>
+            <a href="../MEDIA/IMAGES/hobbies-3.png" alt="A photo of Ben&Ben." title="A group photo of my current favorite OPM band, Ben&Ben." target="newWindow"><img src="../MEDIA/IMAGES/hobbies-3.png"></a>
+        </div>
+    </div>
+
+    <div class="return">
+        <a href="#">Back to Top</a>
+    </div>
+
+    <div id="college">
+        <h2 class="article-title">Curiosity: My Interests</h2>
+        <p class="quotation"><cite><q>The mind is not a vessel to be filled, but a fire to be kindled.</q></cite><br>— <b>Plutarch</b></p>
+
+        <div class="article">
+            <p>
+                <strong>My interests are deeply connected with my current skills and hobbies</strong>.<sup>1</sup> I am interested in music, specifically in <strong>music production and songwriting</strong>.<sup>2</sup> I have written songs myself, and I find the process fascinating, even if it is sometimes tiring.<sup>3</sup> I am also interested in art, specifically in <strong>paintings</strong>.<sup>4</sup> I love how emotions are translated to brush strokes, and how each piece gives you a specific feeling when you look at them.<sup>5</sup> That is why I promised myself, that when I go to other countries, I will try to go to art museums to understand their culture through art.<sup>6</sup> I am also interested in <strong>Japan</strong>, specifically in their culture and history.<sup>7</sup> I have always wanted to work in Japan, and I am fully aware of the above-average intensity of their work culture.<sup>8</sup> I am very fascinated about how they function as a country, and how they manage to instill their values even to younger generations.<sup>9</sup> Because of this, <em>I have started learning their language and writing system</em>, though I have a long way to go.<sup>10</sup> I am interested in computers, specifically <strong>software programming and cybersecurity</strong>.<sup>11</sup> I am fascinated about how people can protect systems, as well as how people can penetrate these protections.<sup>12</sup> I am also quite fond with how software is made.<sup>13</sup> I see myself pursuing a job opportunity related to software programming or cybersecurity.<sup>14</sup> Another thing that interests me are games, specifically <strong>game production and development</strong>.<sup>15</sup> 
+            </p>
+
+            <p>
+                If software programming and cybersecurity does not work to my favor, I find myself seeking opportunities in the field of game development.<sup>16</sup> I am fond of behind the scenes in game development, particularly the way games are designed and developed over time.<sup>17</sup> And this interest was intensified by a project we had last semester, wherein we had to individually create games using Java.<sup>18</sup> I am proud of the game I made, and I have plans of developing it further.<sup>19</sup> I am also interested in <strong>graphic design</strong>.<sup>20</sup> I wish to have proper equipment and software for graphic design in the future.<sup>21</sup> I think this will be a part-time job opportunity for me when I graduate.<sup>22</sup> And I also love designing myself, so I will probably not get tired of it easily.<sup>23</sup> <em>I also want to take proper classes in design</em> to reinforce my skills.<sup>24</sup> If given the chance, I would want a certificate or degree in graphic design.<sup>25</sup> This is because I am also interested in <strong>productions</strong>, either in television series or movies.<sup>26</sup> I love seeing <abbr title="Visual Effects">VFX</abbr>, <abbr title="Computer-Generated Imagery">CGI</abbr>, kinetic graphic design, and other kinds of design in moving pictures.<sup>27</sup> <strong>My interests are dynamic</strong>.<sup>28</sup> I am sure that I'll have more interests, or lose interests in the following years.<sup>29</sup> All I am sure of is that <em>each interest that I have plays an important role in defining who I am</em>.<sup>30</sup>
+            </p>
+        </div>
+
+        <div class="footnote">
+            <dd><i><sup>4</sup>I am interested in both traditional and digital painting.<br></i></dd>
+            <dd><i><sup>16</sup>I would love an opportunity in game programming, game art, or game storywriting.<br></i></dd>
+            <dd><i><sup>22</sup>I am planning on becoming a freelance artist while having a professional job.<br><br></i></dd>
+        </div>
+
+        <div class="images">
+            <a href="../MEDIA/IMAGES/interest-1.jpg" alt="A photo of a Digital Audio Workstation." title="A photo of a Digital Audio Workstation, which is used to produce music." target="newWindow"><img src="../MEDIA/IMAGES/interest-1.jpg"></a>
+            <a href="../MEDIA/IMAGES/interest-2.jpg" alt="A photo of a laptop and a controller." title="A photo of an on-going console game development." target="newWindow"><img src="../MEDIA/IMAGES/interest-2.jpg"></a>
+            <a href="../MEDIA/IMAGES/interest-3.jpg" alt="A photo of a store in Japan." title="A street photo shot in Japan, a country I love other than the Philippines." target="newWindow"><img src="../MEDIA/IMAGES/interest-3.jpg"></a>
+        </div>
+    </div>
+
+    <div class="return">
+        <a href="#">Back to Top</a>
+    </div>
+
+    <div class="bot-nav">
+        <div><a href="mailto:manubay.chazz@ue.edu.ph">Contact Me</a></div>
+        <div><a href="https://fb.com/mazz.chanubay" target="socmed">Facebook</a></div>
+        <div><a href="https://www.youtube.com/user/MegaChazz12" target="socmed">YouTube</a></div>
+        <div class="copyright">&copy; Chazz Manubay, 2022.</div>
+    </div>
+</body>
+
+</html>

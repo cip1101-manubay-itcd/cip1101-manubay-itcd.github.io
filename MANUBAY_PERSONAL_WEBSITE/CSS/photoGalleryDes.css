@@ -1,0 +1,176 @@
+body {
+    font-family: Rubik, Tahoma, Verdana, sans-serif;
+    color: #000;
+    margin-left: 7em;
+    margin-right: 7em;
+    background-color: #fef9ef;
+}
+
+p {
+    text-align: justify;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.125em;
+    color: white;
+
+    padding: 2em 0.75em 2em;
+    background-color: #0F8B8D;   
+}
+
+.top-nav > div {
+    margin: 0 1em 0;
+}
+
+.top-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.top-nav a:hover {
+    font-weight: bold;
+}
+
+.top-nav a:active {
+    color: #143642;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro > h1 {
+    font-size: 6em;
+    line-height: 80%;
+    font-weight: 800;
+    color: #143642;
+
+    padding-bottom: 0em;
+    margin-bottom: 0em;
+}
+
+.intro > h3 {
+    font-size: 1.5em;
+    font-weight: 400;
+
+    padding-top: 0em;
+}
+
+.jumplink {
+    text-align: center;
+    padding: 3em;
+}
+
+.jumplink > h3 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.jumplink > h4 {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.jumplink > div {
+    display: inline-block;
+    margin: 1em;
+    padding: 1em;
+    background-color: #143642;
+    border-radius: 15px;
+}
+
+.jumplink > div:hover {
+    box-shadow: 7px 7px 50px 15px #18495B inset;
+}
+
+.jumplink div > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.125em;
+    padding: 1em 2em 1em;
+}
+
+.jumplink div > a:hover {
+    font-weight: bold;
+}
+
+.jumplink div > a:active {
+    color: #A1E3FF;
+}
+
+a > img {
+    max-width: 30%;
+    min-width: 30%;
+
+    height: auto;
+    border-radius: 15px;
+    margin: 1em;
+    
+    vertical-align: middle;
+
+    filter: saturate(0%);
+}
+
+a > img:hover {
+    filter: saturate(100%);
+}
+
+div > h2 {
+    font-size: 3em;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+    margin-bottom: 0em;
+    font-weight: 800;
+    color: #143642;
+}
+
+div > p {
+    text-align: center;
+    font-size: 1.125em;
+}
+
+.return {
+    text-align: center;
+    font-size: 1.125em;
+    padding: 2em 5em 2em;
+}
+
+.return > a:link, .return > a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: #143642;
+}
+
+.return > a:hover {
+    font-weight: 900;
+}
+
+.return > a:active {
+    color: #0F8B8D;
+}
+
+.bot-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    padding: 2em 0.75em 2em;
+    background-color: #0F8B8D;
+}
+
+.bot-nav > div, .bot-nav div > a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.bot-nav a:hover {
+    font-weight: bold;
+}
+
+.bot-nav a:active {
+    color: #143642;
+}
