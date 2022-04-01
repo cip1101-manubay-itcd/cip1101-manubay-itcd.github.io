@@ -4,27 +4,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="Author" content="Chazz C. Manubay">
-    <meta name="Description" content="Photo Gallery - Personal Website">
+    <meta name="Description" content="Dream Tour - Personal Website">
 
-    <title>Photo Gallery | Chazz C. Manubay</title>
+    <title>Dream Tour | Chazz C. Manubay</title>
+
+    <script language="JavaScript">
+        function writeText(txt) {
+            document.getElementById("desc").innerHTML = txt;
+        }
+
+        function dissolveText(txt) {
+            document.getElementById("desc").innerHTML = txt;
+        }
+    </script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
-    <link rel="icon" type="image/x-icon" href="../MEDIA/FAVICONS/gallery-favicon.png">
-    <link rel="stylesheet" type="text/css" href="../CSS/photoGalleryDes.css">
+    <link rel="icon" type="image/x-icon" href="../MEDIA/FAVICONS/tour-favicon.png">
+    <link rel="stylesheet" type="text/css" href="../CSS/dreamTourDes.css">
 </head>
 <body>
     <div class="top-nav">
-        <div><a href="landing-page.html"><span class="material-icons">home</span></a></div>
-        <div>Gallery</div>
+        <div><a href="../index.html"><span class="material-icons">home</span></a></div>
+        <div><a href="biography.html">About Me</a></div>
+        <div><a href="resume.html">My Resumé</a></div>
+        <div><a href="skills-hobbies-interests.html">What I Do</a></div>
+        <div><a href="photo-gallery.html">Gallery</a></div>
+        <div><a href="favorite-music.html">Music</a></div>
+        <div><a href="favorite-shows.html">Shows</a></div>
+        <div><a href="503.html">Future Plans</a></div>
+        <div><a href="503.html">Bucket List</a></div>
+        <div><a href="503.html">Literature</a></div>
     </div>
 
     <div class="intro">
-        <h1>Photo Gallery</h1>
-        <h3>Some you may have seen, some you haven't.</h3>
+        <h1>Dream Tour</h1>
+        <h3>Places I want to go to, places I want to see.</h3>
+    </div>
+
+    <div class="image">
+        <img src="../MEDIA/IMAGES/TOUR/dream-tour.jpg" alt="A photo of my dream tour." usemap="#dreamtour">
+        <map name="dreamtour">
+            <area shape="circle" coords="199,177,89" href="PLACES/japan.html" onmouseover="writeText('Japan')" onmouseout="dissolveText('Hover through the images above.')">
+            <area shape="circle" coords="156,428,88" href="PLACES/thailand.html" onmouseover="writeText('Thailand')" onmouseout="dissolveText('Hover through the images above.')">
+            <area shape="circle" coords="643,254,88" href="PLACES/south-korea.html" onmouseover="writeText('South Korea')" onmouseout="dissolveText('Hover through the images above.')">
+            <area shape="circle" coords="612,526,87" href="PLACES/united-kingdom.html" onmouseover="writeText('United Kingdom')" onmouseout="dissolveText('Hover through the images above.')">
+            <area shape="circle" coords="438,111,87" href="PLACES/united-states.html" onmouseover="writeText('United States')" onmouseout="dissolveText('Hover through the images above.')">
+            <area shape="circle" coords="373,588,87" href="PLACES/france.html" onmouseover="writeText('France')" onmouseout="dissolveText('Hover through the images above.')">
+        </map>
+    </div>
+
+    <div class="description">
+        <p id="desc">Hover through the images above.</p>
+    </div>
+
+    <div class="return">
+        <a href="#">Back to Top</a>
     </div>
 
     <div class="bot-nav">

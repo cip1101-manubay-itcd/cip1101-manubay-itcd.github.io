@@ -1,0 +1,128 @@
+body {
+    font-family: Rubik, Tahoma, Verdana, sans-serif;
+    color: #0F8B8D;
+    margin: 0;
+    background-color: #fef9ef;
+}
+
+nav {
+    background-color: #0F8B8D;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.125rem;
+}
+
+nav > div {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 2rem;
+}
+
+nav > .go-back {
+    margin-right: 4rem;
+}
+
+nav div > a {
+    color: #fef9ef;
+    text-decoration: none;
+}
+
+nav div > a:hover {
+    font-weight: 600;
+}
+
+@media (max-width: 1140px) {
+    nav > div {
+        padding: 2rem;
+    }
+}
+
+article > .title {
+    font-size: 5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+article > .description {
+    max-width: 90%;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    text-align: justify;
+    text-indent: 4rem;
+}
+
+.image-grid {
+    text-align: center;
+}
+
+.image .location-name {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.image-grid > .image {
+    display: inline-block;
+    max-width: 25%;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    vertical-align: middle;
+
+    background-color: #FFC45E;
+    border-radius: 2rem;
+}
+
+.image a > img {
+    max-width: 80%;
+    border-radius: 1rem;
+}
+
+.return {
+    max-width: 20%;
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: #FFC45E;
+    border-radius: 3rem;
+}
+
+.return > a {
+    color: #0F8B8D;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.return > a:hover {
+    font-weight: 800;
+}
+
+footer {
+    background-color: #0F8B8D;
+    text-align: left;
+    padding: 1rem;
+    font-size: 1.125rem;
+    color: #fef9ef;
+}
+
+footer > div {
+    margin: 1em 2em;
+}
+
+footer > div, footer div > a {
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
+footer a:active {
+    color: #143642;
+}
+
+.copyright {
+    float: right;
+}

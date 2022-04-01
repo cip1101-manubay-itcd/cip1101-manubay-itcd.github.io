@@ -208,34 +208,6 @@ ul.courses {
     list-style-image: url(../MEDIA/FAVICONS/resume_courses_bullet.png);
 }
 
-.bot-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    padding: 2em 0.75em 2em;
-    background-color: #0F8B8D;
-}
-
-.bot-nav > div, .bot-nav div > a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.bot-nav a:hover {
-    font-weight: bold;
-}
-
-.bot-nav a:active {
-    color: #143642;
-}
-
-.copyright {
-    text-align: right;
-    width: 60%;
-    align-items: flex-end;
-}
-
 .return {
     text-align: center;
     font-size: 1.125em;
@@ -254,4 +226,32 @@ ul.courses {
 
 .return > a:active {
     color: #0F8B8D;
+}
+
+.bot-nav {
+    padding: 1em;
+    background-color: #0F8B8D;
+}
+
+.bot-nav > div {
+    margin: 1em 2em;
+}
+
+.bot-nav > div, .bot-nav div > a {
+    display: inline-block;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bot-nav a:hover {
+    font-weight: bold;
+}
+
+.bot-nav a:active {
+    color: #143642;
+}
+
+.copyright {
+    float: right;
 }

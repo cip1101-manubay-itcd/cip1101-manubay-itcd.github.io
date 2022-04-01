@@ -1,6 +1,6 @@
 body {
     font-family: Rubik, Tahoma, Verdana, sans-serif;
-    color: #000;
+    color: #143642;;
     margin: 0 3em;
     background-color: #fef9ef;
 }
@@ -153,15 +153,17 @@ div > p {
 }
 
 .bot-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    padding: 2em 0.75em 2em;
+    padding: 1em;
     background-color: #0F8B8D;
 }
 
+.bot-nav > div {
+    margin: 1em 2em;
+}
+
 .bot-nav > div, .bot-nav div > a {
+    display: inline-block;
+    text-align: left;
     color: #fff;
     text-decoration: none;
 }
@@ -172,4 +174,8 @@ div > p {
 
 .bot-nav a:active {
     color: #143642;
+}
+
+.copyright {
+    float: right;
 }
