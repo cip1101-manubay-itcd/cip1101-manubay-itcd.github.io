@@ -100,6 +100,10 @@ p {
     color: #A1E3FF;
 }
 
+.images {
+    text-align: center;
+}
+
 a > img {
     max-width: 30%;
     min-width: 30%;
