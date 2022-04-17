@@ -1,0 +1,159 @@
+body {
+    width: 70%;
+    margin: 1rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > div, .school-info > div {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    color: #E4243B;
+}
+
+.school-info {
+    width: 32%;
+    margin-left: 2rem;
+}
+
+.logo {
+    width: 25%;
+    margin-right: 0.5rem;
+}
+
+.logo > img {
+    width: 100%;
+}
+
+.text > * {
+    margin: 0 0 0 0.5rem;
+    text-align: left;
+}
+
+.title {
+    width: 25%;
+    margin-right: 6rem;
+    font-size: 1.125rem;
+}
+
+.header-details {
+    width: 12%;
+    text-align: left;
+    margin-right: 1rem;
+}
+
+.header-details-values {
+    width: 10%;
+    text-align: left;
+}
+
+.header-details-values > h4 {
+    color: gray;
+    font-family: Consolas;
+    font-weight: 400;
+}
+
+table.form {
+    width: 100%;
+    border: 2px solid #E4243B;
+    margin-bottom: 0;
+}
+
+table.footer {
+    width: 35%;
+}
+
+table.footer td {
+    text-align: left;
+}
+
+table.footer tr td.footer-name {
+    padding-right: 0;
+    width: 35%;
+}
+
+table.footer tr td.footer-value {
+    padding-left: 0;
+}
+
+h3.footer {
+    color:#E4243B;
+    text-transform: uppercase;
+}
+
+td {
+    color: gray;
+    font-family: Consolas;
+    padding-right: 2rem;
+    text-align: left;
+    padding: 0 1rem;
+}
+
+th {
+    color: #E4243B;
+    font-size: 0.75rem;
+    text-align: left;
+    padding-left: 2.25rem;
+}
+
+th.section-heading {
+    background-color: #E4243B;
+    color: white;
+    padding: 0.35rem 0.35rem 0.35rem 2rem;
+    margin: 0;
+}
+
+tr.heading {
+    background-color: #E4243B;
+}
+th.header {
+    color: white;
+    padding: 0.25rem;
+    text-align: center;
+}
+
+#schedule-title {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+tr.entry {
+    text-align: center;
+}
+
+th.school-fees-header {
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+table.form tr td.campus {
+    text-align: center;
+    width: 5%;
+}
+
+table.form tr td.subject {
+    width: 45%;
+}
+
+table.form tr td.time {
+    width: 12%;
+}
+
+table.form tr td.code {
+    width: 18%;
+}
+
+
+td.subfee {
+    padding-left: 4rem;
+}
+
+td.total {
+    border-top: 2px solid;
+}
+
+#total-fee {
+    height: 10rem;
+    vertical-align: top;
+}
