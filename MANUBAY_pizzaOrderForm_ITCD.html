@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Chazz C. Manubay">
+        <meta name="Description" content="Finals Activity 2: Order Form">
+
+        <title>Bit Hungry</title>
+
+        <link rel="icon" type="image/x-icon" href="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/bit-hungry-favicon.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+        <link rel="stylesheet" type="text/css" href="MANUBAY_IMAGES_ITCD/CSS/pizzaOrderFormDes.css">
+    </head>
+    <body>
+        <div class="heading">
+            <h1>Hello! Welcome to</h1>
+            <img src="MANUBAY_IMAGES_ITCD/MEDIA/bit-hungry-logo.png">
+            <h2>What happens if a tech student ran a fastfood business?</h2>
+            <br>
+            <div class="start-button"><a href="#customer-info">Start Ordering</a></div>
+        </div>
+
+        <form action="" method="post">
+            <div class="customer-info" id="customer-info">
+                <h2>Customer Information</h2>
+                <div class="basic-info">
+                    <span class="material-symbols-outlined">account_circle</span>
+                    <h3>Basic Information</h3>
+                    <div>
+                        <label for="given-name">Given Name:</label>
+                        <input type="text" id="full-name" placeholder="Enter given name..." required/><br/>
+                    </div>
+
+                    <div>
+                        <label for="middle-initial">Middle Initial:</label>
+                        <input type="text" id="middle-initial" maxlength="5" placeholder="M.I."/><br/>
+                    </div>
+
+                    <div>
+                        <label for="family-name">Last Name:</label>
+                        <input type="text" id="family-name" placeholder="Enter last name..." required/><br/>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <span class="material-symbols-outlined">import_contacts</span>
+                    <h3>Contact Information</h3>
+                    <div>
+                        <label for="email-address">Email Address:</label>
+                        <input type="email" id="email-address" placeholder="Enter email address..." required/><br/>
+                    </div>
+
+                    <div>
+                        <label for="contact-number">Contact Number:</label>
+                        <input type="tel" id="contact-number" maxlength="11" placeholder="09XXXXXXXXX" required/><br/>
+                    </div>
+                </div>
+
+                <div class="delivery-info">
+                    <span class="material-symbols-outlined">emoji_transportation</span>
+                    <h3>Delivery Information</h3>
+                    <div>
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" placeholder="Enter Complete Address..." required/><br/>
+                    </div>
+
+                    <div>
+                        <label for="delivery-notes">Notes to driver:</label>
+                        <textarea id="delivery-notes" name="delivery-notes" rows="10" cols="50" placeholder="Add instructions for driver..."></textarea>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="order-form">
+                <h2>Order Form:</h2>
+
+                <div class="jumplink">
+                    <a href="#burgers">Burger</a>
+                    <a href="#pasta">Pasta</a>
+                    <a href="#fries">Fries</a>
+                    <a href="#drinks">Drinks</a>
+                </div>
+
+                <div class="burgers" id="burgers">
+                    <h2>Burger</h2>
+                    <div class="burger-type">
+                        <h3>Choose burger type:</h3>
+
+                        <div>
+                            <label for="8-bit">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/single-patty.png" alt="8-Bit Patty">
+                                <p>8-Bit</p>
+                            </label>
+                            <input type="radio" id="8-bit" name="burger-type" value="8-Bit">
+
+                        </div>
+
+                        <div>
+                            <label for="16-bit">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/double-patty.png" alt="16-Bit Patty">
+                                <p>16-Bit</p>
+                            </label>
+                            <input type="radio" id="16-bit" name="burger-type" value="16-Bit">
+                        </div>
+                    </div>
+
+                    <div class="burger-add-ons">
+                        <h3>Choose add-ons:</h3>
+
+                        <div>
+                            <label for="cheese">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/cheese.png" alt="Cheese">
+                                <p>Cheese</p>
+                            </label>
+                            <input type="checkbox" id="cheese" name="burger-extra" value="Cheese">
+                        </div>
+
+                        <div>
+                            <label for="coleslaw">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/coleslaw.png" alt="Coleslaw">
+                                <p>Coleslaw</p>
+                            </label>
+                            <input type="checkbox" id="coleslaw" name="burger-extra" value="Coleslaw">
+                        </div>
+
+                        <div>
+                            <label for="tomato">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/tomato.png" alt="Tomato">
+                                <p>Tomato</p>
+                            </label>
+                            <input type="checkbox" id="tomato" name="burger-extra" value="Tomato">
+                        </div>
+
+                        <div>
+                            <label for="onion">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/onions.png" alt="Onions">
+                                <p>Onions</p>
+                            </label>
+                            <input type="checkbox" id="onion" name="burger-extra" value="Onions">
+                        </div>
+
+                        <div>
+                            <label for="pickles">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/pickles.png" alt="Pickles">
+                                <p>Pickles</p>
+                            </label>
+                            <input type="checkbox" id="pickles" name="burger-extra" value="Pickles">
+                        </div>
+
+                        <div>
+                            <label for="bacon">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/bacon.png" alt="Bacon">
+                                <p>Bacon</p>
+                            </label>
+                            <input type="checkbox" id="bacon" name="burger-extra" value="Bacon">
+                        </div>
+                    </div>
+
+                    <div class="bun-type">
+                        <h3>Choose bun type:</h3>
+
+                        <div>
+                            <label for="white">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/white-bread.png" alt="White Bun">
+                                <p>White Bun</p>
+                            </label>
+                            <input type="radio" id="white" name="burger-bun" value="White Bun">
+                        </div>
+
+                        <div>
+                            <label for="sesame">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/sesame-bread.png" alt="Sesame Bun">
+                                <p>Sesame Bun</p>
+                            </label>
+                            <input type="radio" id="sesame" name="burger-bun" value="Sesame Bun">
+                        </div>
+
+                        <div>
+                            <label for="donut">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/donut-bread.png" alt="Doughnut Bun">
+                                <p>Doughnut Bun</p>
+                            </label>
+                            <input type="radio" id="donut" name="burger-bun" value="Doughnut Bun">
+                        </div>
+                    </div>
+
+                    <div class="burger-quantity">
+                        <h3>How many orders?</h3>
+                        <input type="number" id="burger-quantity" max="16" min="1" placeholder="1-16">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="pasta" id="pasta">
+                    <h2>Pasta</h2>
+                    <div class="pasta-base">
+                        <h3>Choose pasta dish:</h3>
+
+                        <div>
+                            <label for="carbonara">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/carbonara.png" alt="Carbonara">
+                                <p>Carbonara</p>
+                            </label>
+                            <input type="radio" id="carbonara" name="pasta-base" value="Carbonara">
+                        </div>
+                        
+                        <div>
+                            <label for="pesto">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/pesto.png" alt="Pesto">
+                                <p>Pesto</p>
+                            </label>
+                            <input type="radio" id="pesto" name="pasta-base" value="Pesto">
+                        </div>
+                        
+                        <div>
+                            <label for="spaghetti">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/spaghetti.png" alt="Spaghetti">
+                                <p>Spaghetti</p>
+                            </label>
+                            <input type="radio" id="spaghetti" name="pasta-base" value="Spaghetti">
+                        </div>
+                    </div>
+
+                    <div class="pasta-extra">
+                        <h3>Choose extra:</h3>
+
+                        <div>
+                            <input type="checkbox" id="extra-cheese" name="pasta-extra" value="Extra Cheese">
+                            <label for="extra-cheese">Extra Cheese</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="extra-sauce" name="pasta-extra" value="Extra Cheese">
+                            <label for="extra-sauce">Extra Sauce</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="extra-bacon" name="pasta-extra" value="Extra Cheese">
+                            <label for="extra-bacon">Extra Bacon Bits</label>
+                        </div>
+                    </div>
+
+                    <div class="pasta-quantity">
+                        <h3>How many orders?</h3>
+
+                        <input type="number" id="pasta-quantity" min="1" max="16" placeholder="1-16">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="fries" id="fries">
+                    <h2>Fries</h2>
+                    <div class="fries-size">
+                        <h3>Choose a size:</h3>
+                        <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/fries.png" alt="Fries Sizes"><br>
+                        <select name="fries-size" id="fries-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                        </select>
+                    </div>
+
+                    <div class="fries-flavor">
+                        <h3>Choose a flavor:</h3>
+
+                        <div>
+                            <input type="radio" id="fries-cheese" name="fries-flavor" value="Cheese">
+                            <label for="fries-cheese">Cheese</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="fries-sour-cream" name="fries-flavor" value="Sour Cream">
+                            <label for="fries-sour-cream">Sour Cream</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="fries-bbq" name="fries-flavor" value="BBQ">
+                            <label for="fries-bbq">BBQ</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="fries-cajun" name="fries-flavor" value="Cajun">
+                            <label for="fries-cajun">Cajun</label>
+                        </div>
+                    </div>
+
+                    <div class="pasta-quantity">
+                        <h3>How many orders?</h3>
+
+                        <input type="number" id="fries-quantity" min="1" max="16" placeholder="1-16">
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="drinks" id="drinks">
+                    <h2>Drinks</h2>
+                    <div class="drink-size">
+                        <h3>Choose cup size:</h3>
+                        <img src="MANUBAY_IMAGES_ITCD/MEDIA/ICONS/cup.png" alt="Cup Sizes"><br>
+                        <select name="drink-size" id="drink-size">
+                            <option value="Regular">Regular</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Large">Large</option>
+                        </select>
+                    </div>
+
+                    <div class="drink-type">
+                        <h3>Choose drink:</h3>
+
+                        <div>
+                            <label for="drink-coke">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/LOGOS/Coca-Cola-logo.png" alt="Coke">
+                                <p>Coke</p>
+                            </label>
+                            <input type="radio" id="drink-coke" name="drink-type" value="Coke">
+                        </div>
+
+                        <div>
+                            <label for="drink-coke-zero">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/LOGOS/Coca-Cola_Zero_Sugar_Logo.png" alt="Coke Zero">
+                                <p>Coke Zero</p>
+                            </label>
+                            <input type="radio" id="drink-coke-zero" name="drink-type" value="Coke Zero">
+                        </div>
+
+                        <div>
+                            <label for="drink-sprite">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/LOGOS/Sprite_Logo.svg" alt="Sprite">
+                                <p>Sprite</p>
+                            </label>
+                            <input type="radio" id="drink-sprite" name="drink-type" value="Sprite">
+                        </div>
+
+                        <div>
+                            <label for="drink-fanta">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/LOGOS/Fanta-Logo.png" alt="Fanta">
+                                <p>Fanta</p>
+                            </label>
+                            <input type="radio" id="drink-fanta" name="drink-type" value="Fanta">
+                        </div>
+
+                        <div>
+                            <label for="drink-tea">
+                                <img src="MANUBAY_IMAGES_ITCD/MEDIA/LOGOS/1200px-Minute_Maid_Logo.svg.png" alt="Minute Maid Iced Tea">
+                                <p>Iced Tea</p>
+                            </label>
+                            <input type="radio" id="drink-tea" name="drink-type" value="Iced Tea">
+                        </div>
+                    </div>
+
+                    <div class="drink-quantity">
+                        <h3>How many drinks?</h3>
+
+                        <input type="number" id="drink-quantity" min="1" max="16" placeholder="1-16">
+                    </div>
+                </div>
+
+                <hr>
+    
+                <div class="delivery" id="delivery">
+                    <h2>Delivery</h2>
+                    <div>
+                        <label class="delivery-option" for="deliver-home">
+                            <span class="material-symbols-outlined">motorcycle</span>
+                            <p>Delivery</p>
+                        </label>
+                        <input type="radio" id="deliver-home" name="delivery-option" value="Deliver">
+                    </div>
+                    <div>
+                        <label class="delivery-option" for="deliver-pick-up">
+                            <span class="material-symbols-outlined">table_restaurant</span>
+                            <p>Pick-Up</p>
+                        </label>
+                        <input type="radio" id="deliver-pick-up" name="delivery-option" value="Pick-Up">
+                    </div>
+                </div>
+            </div>
+
+            <div class="feedback">
+                <h2>How was it?</h2>
+                <h3>We would love to hear suggestions on how we can improve our services!</h3>
+                
+                <label for="feedback">Feedback (optional):</label>
+                <textarea id="feedback" name="feedback" rows="10" cols="50" placeholder="Write your comments/suggestions here..."></textarea>
+            </div>
+            
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+
+        <footer>
+            <p id="copyright">&copy; Manubay, Chazz C. CIP 1101 - ITCD.</p>
+            <p>Pixel food illustration made by yours truly.<br>Icons from Google.</p>
+        </footer>
+    </body>
+</html>
