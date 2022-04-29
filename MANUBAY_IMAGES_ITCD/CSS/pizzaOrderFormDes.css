@@ -248,6 +248,14 @@ form {
     width: 8rem;
 }
 
+hr {
+    height: 0.5rem;
+    border: none;
+    width: 75%;
+    background: linear-gradient(to left, #E9C939, #FF987B);
+    border-radius: 1rem;
+}
+
 input#email-address {
     width: 30%;
 }
