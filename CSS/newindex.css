@@ -1,0 +1,266 @@
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+    margin: 0;
+}
+
+body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 6. Inherit fonts for form controls */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* 8. Improve line wrapping */
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+/*
+    9. Create a root stacking context
+  */
+#root,
+#__next {
+    isolation: isolate;
+}
+
+:root {
+    --var-primary: #0F8B8D;
+    --var-secondary: #143642;
+    --var-white: #fef9ef;
+}
+
+body {
+    font-family: Rubik, sans-serif;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23EFFAF6' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.top-nav {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: var(--var-primary);
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+/* .top-nav a {
+    float: left;
+    display: block;
+    color: var(--var-white);
+    text-align: center;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+} */
+
+.top-nav a {
+    display: block;
+    color: var(--var-white);
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 1.5rem 1.5rem;
+}
+
+
+.top-nav a:hover {
+    background-color: var(--var-white);
+    color: var(--var-secondary);
+    transition-duration: 100ms;
+}
+
+.top-nav a.active {
+    background-color: var(--var-primary);
+    color: var(--var-white);
+}
+
+.top-nav .icon {
+    display: none;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.intro .title {
+    font-size: 13vw;
+    line-height: 15vw;
+    color: var(--var-secondary);
+}
+
+.intro .subtitle {
+    font-size: 7vw;
+    color: var(--var-primary);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--var-primary);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--var-white);
+    font-size: 1.25rem;
+}
+
+footer .links,
+footer .links-responsive {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .links a,
+footer .links-responsive a {
+    display: block;
+    text-decoration: none;
+    color: var(--var-white);
+    padding: 1.5rem 1.5rem;
+}
+
+footer .links a:hover {
+    background-color: var(--var-white);
+    color: var(--var-primary);
+    transition-duration: 100ms;
+}
+
+footer .links-responsive a:hover {
+    text-shadow: 2px 2px 5px var(--var-secondary);
+    transition-duration: 100ms;
+}
+
+footer div.copyright {
+    padding-right: 2rem;
+}
+
+footer .links-responsive {
+    display: none;
+}
+
+@media screen and (max-width: 1370px) {
+    .top-nav div {
+        display: none;
+    }
+
+    .top-nav .icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1370px) {
+    .top-nav {
+        display: block;
+    }
+
+    .top-nav.responsive {
+        position: absolute;
+        box-shadow: 0 0 50px var(--var-primary);
+    }
+
+    .top-nav.responsive .icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .top-nav.responsive div {
+        float: none;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .top-nav.responsive div a {
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .intro .title {
+        font-size: 8rem;
+        line-height: 9rem;
+    }
+
+    .intro .subtitle {
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    footer .links {
+        display: none;
+    }
+
+    footer .links-responsive {
+        display: flex;
+    }
+
+    footer div.copyright {
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+}
