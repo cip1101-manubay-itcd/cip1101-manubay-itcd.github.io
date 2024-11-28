@@ -80,10 +80,14 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg stroke='%23CCC' stroke-width='0' %3E%3Crect fill='%23EFFAF6' x='-60' y='-60' width='110' height='240'/%3E%3C/g%3E%3C/svg%3E");
 }
 
+.body-container {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh
+}
+
 .top-nav {
     overflow: hidden;
-    position: absolute;
-    top: 0;
     width: 100%;
     background-color: var(--var-primary);
     display: flex;
@@ -147,8 +151,6 @@ article {
 
 footer {
     width: 100vw;
-    position: absolute;
-    bottom: 0;
     background-color: var(--var-primary);
     display: flex;
     flex-direction: row;
@@ -247,7 +249,7 @@ footer .links-responsive {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 0.5rem;
+        gap: 0;
         padding: 0.5rem;
     }
 
@@ -259,8 +261,12 @@ footer .links-responsive {
         display: flex;
     }
 
+    footer .links-responsive a {
+        padding: 0.5rem;
+    }
+
     footer div.copyright {
         padding-right: 0;
-        padding-bottom: 1rem;
+        font-size: 0.75rem;
     }
 }
